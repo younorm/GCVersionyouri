@@ -63,6 +63,7 @@ ul li:hover {
     color: var(--color2);
     flex-direction: column;
     align-items: center;
+    text-align: center;
     
 }
 h1 {
@@ -349,6 +350,10 @@ h3 {
 /* ---------------------media-queries------------------- */
 
 @media screen and (max-width: 950px){
+    nav li {
+        display: none;
+      }
+  
     .icon-part-container {
         flex-direction: column;
     }
